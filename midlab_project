@@ -1,0 +1,13 @@
+str1="Welcome to Mid lab game"
+print(str1.center(100,"."))
+
+adjective=input("Enter an adjective:")
+noun=input("Enter an noun:")
+verb=input("Enter an verb:")
+adjective1=input("Enter another adjective:")
+noun1=input("Enter another noun:")
+verb1=input("Enter another verb:")
+
+story=f"""Once upon a time, in a {adjective} jungle, a brave {noun}
+ set out on a journey to find the legendary treasure.\nEvery day, they would {verb} through the dense trees and face {adjective1} challenges.\nOne day, they encountered a mysterious {noun1} who was always {verb1} near an ancient temple.\nTogether, they unlocked the secrets of the jungle and discovered the treasure, becoming legendary explorer!"""
+print(story)
